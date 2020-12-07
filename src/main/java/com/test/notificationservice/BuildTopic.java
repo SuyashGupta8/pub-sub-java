@@ -1,4 +1,4 @@
-package services;
+package com.test.notificationservice.services;
 
 
 import com.google.cloud.pubsub.v1.TopicAdminClient;
@@ -6,8 +6,6 @@ import com.google.pubsub.v1.ProjectName;
 import com.google.pubsub.v1.Topic;
 import com.google.pubsub.v1.TopicName;
 import org.springframework.stereotype.Component;
-import utils.Configurations;
-import utils.JsonParser;
 
 import java.io.IOException;
 

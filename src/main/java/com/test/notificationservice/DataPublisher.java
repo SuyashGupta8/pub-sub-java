@@ -1,14 +1,12 @@
-package services;
+package com.test.notificationservice.services;
 
 import com.google.api.core.ApiFuture;
-import com.google.cloud.pubsub.v1.Publisher;
 import com.google.common.collect.ImmutableMap;
 import com.google.protobuf.ByteString;
 import com.google.pubsub.v1.PubsubMessage;
 import com.google.pubsub.v1.TopicName;
 import org.springframework.stereotype.Component;
 import pojo.Notifications;
-import utils.Configurations;
 import utils.JsonParser;
 
 import java.io.IOException;
